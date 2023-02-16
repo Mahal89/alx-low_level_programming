@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
  *main - entry point
- *
- *return: always 0 (succes)
+ *Description: learning SE
+ *Return: always 0 (succes)
  */
 int main(void)
 {
