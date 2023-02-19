@@ -1,4 +1,4 @@
-#include <stdio.h>
+c#include <stdio.h>
 /**
  *main - entry point
  *Description: learning SE
@@ -9,5 +9,6 @@ int main(void)
 char ch = 'z';
 for (ch = 'z'; ch >= 'a'; ch--)
 putchar(ch);
+putchar('\n');
 return (0);
 }
