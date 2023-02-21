@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "Mahal.h"
 /**
  *main - entry point
@@ -9,9 +10,7 @@ int main(void)
 void print_alphabet(void);
 char ch;
 for (ch = 'a'; ch <= 'z'; ch++)
-{
 putchar(ch);
-}
 putchar('\n');
 return (0);
 }
