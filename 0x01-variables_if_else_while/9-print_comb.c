@@ -14,6 +14,5 @@ if (a < 9)
 putchar(',');
 putchar(' ');
 }
-putchar('\n');
 return (0);
 }
