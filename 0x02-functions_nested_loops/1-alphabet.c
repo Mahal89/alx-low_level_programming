@@ -1,4 +1,4 @@
-#include "main.h"
+#include "Mahal.h"
 /**
  *main - entry point
  *Description: loops
