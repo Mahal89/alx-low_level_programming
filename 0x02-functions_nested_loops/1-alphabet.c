@@ -4,7 +4,7 @@
  *print_alphabet - print the alphabet
  *Return: void
 */
-void print_alphabet(void);
+char print_alphabet(char ch);
 int main(void)
 {
 char ch;
