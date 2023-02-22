@@ -1,2 +1,2 @@
 #include <stdio.h>
-void print_alphabet(void);
+char print_alphabet(char ch);
