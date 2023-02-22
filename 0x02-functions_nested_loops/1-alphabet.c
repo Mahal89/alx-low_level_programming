@@ -1,9 +1,15 @@
 #include <stdio.h>
 #include "main.h"
-int main();
+/**
+ *print_alphabet - print the alphabet
+ *Return: void
+*/
 void print_alphabet(void);
+{
 char ch;
 for (ch = 'a'; ch <= 'z'; ch++)
-char result = ch;
-return result;
+{
+_putchar(ch);
+}
+_putchar('\n');
 }
