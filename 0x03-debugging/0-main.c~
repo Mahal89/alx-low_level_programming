@@ -1,0 +1,6 @@
+#include <stdio.h>
+int main()
+{
+  int num;
+  num = positive_or_negative(0, num);
+  
