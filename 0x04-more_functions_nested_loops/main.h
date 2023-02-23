@@ -1,4 +1,4 @@
 #include <stdio.h>
 int _putchar(int char);
-int _isupper (int c);
+int _isupper (int n);
   
