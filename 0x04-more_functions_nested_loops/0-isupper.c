@@ -2,10 +2,10 @@
 #include "main.h"
 int main(void)
 {
-char n = 'a';
-putchar("%c: %d\n", n, _isupper(n));
-n = 'A';
-putchar("%c: %d\n", n, _isupper(n))
+int _isupper(int c);
+int c = 'A';
+return (1);
+int c = 'a';
 return (0);
 }
-    
+  
