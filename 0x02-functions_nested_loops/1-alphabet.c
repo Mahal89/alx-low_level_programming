@@ -4,13 +4,14 @@
  *print_alphabet - print the alphabet
  *Return: void
 */
-char print_alphabet(char ch);
-int main(void)
+void print_alphabet();
+int _putchar(int ch);
 {
 char ch;
 for (ch = 'a'; ch <= 'z'; ch++)
 {
 _putchar(ch);
-}
 _putchar('\n');
 }
+
+  
