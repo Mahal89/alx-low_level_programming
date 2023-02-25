@@ -1,2 +1,10 @@
-#include <stdio.h>
-char print_alphabet(char ch);
+int _putchar(int ch)
+{
+return(ch);
+}
+
+void print_alphabet();
+{
+return (0);
+}
+
