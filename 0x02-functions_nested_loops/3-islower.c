@@ -8,8 +8,10 @@
 int _islower(int c)
 {
 int c;
-c = 'b';
-_putchar("%c : %d", c, _islower);
-c = 'E';
-_putchar("%c : %d", c, _islower);
+c = 98;
+if (c >= 97 && c <= 122)
+return (1);
+else
+return (0);
 }
+   
