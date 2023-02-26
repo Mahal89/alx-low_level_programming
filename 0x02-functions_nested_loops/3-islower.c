@@ -2,7 +2,7 @@
 #include "main.h"
 /**
  *_islower - prints value when character is passed to _islower
- *Description: check for lower case
+ *@c: the character to be checked
  *Return: 1 if its a lower case
 */
 int _islower(int c)
