@@ -5,7 +5,6 @@
  *Return: void
 */
 void print_alphabet();
-int _putchar(int ch);
 int main(void)
 {
 char ch;
