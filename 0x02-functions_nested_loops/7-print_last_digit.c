@@ -4,8 +4,7 @@
  *print_last_digit - prints last digit
  *Return: value of last digit
 */
-int print_last_digit(int)
+int print_last_digit(int n)
 {
-int n;
-_putchar((n % 10), n);
+_putchar((n % 10) + '0', n);
 }
