@@ -5,6 +5,7 @@
  *Return: void
 */
 void print_alphabet();
+int main(void)
 {
 char ch;
 for (ch = 'a'; ch <= 'z'; ch++)
