@@ -9,12 +9,10 @@ void rev_string(char *s)
 {
 int count;
 while (*s + count != '\0')
-{
 count++
-}
 while (count--)
 {
-_putchat(*s + count);
+_putchar(*s + count);
 }
 _putchar('\n');
 }
