@@ -7,14 +7,14 @@
 */
 void rev_string(char *s)
 {
-int length, c;
-char *begin, *end, temp;
-length = string_length(s);
-*begin = s;
-*end = s;
-temp = *end;
-*end = *begin;
-*begin = temp;
-begin++;
-end--;
+int count;
+while (*s + count != '\0')
+{
+count++
+}
+while (count--)
+{
+_putchat(*s + count);
+}
+_putchar('\n');
 }
