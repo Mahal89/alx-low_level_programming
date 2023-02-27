@@ -19,11 +19,4 @@ _putchar("n = %d", n);
 _putchar("h = %d", h);
 return (0);
 }
-void swap_int(int *a, int *b)
-{
-int new;
-new = *a;
-*a = *b;
-*b = new;
-}
  
