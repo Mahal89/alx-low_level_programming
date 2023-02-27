@@ -7,12 +7,19 @@
 */
 void rev_string(char *s)
 {
-int count;
- while (*(s + count) != '\0')
-count++;
-while (count--)
+int length, b;
+char *begin, *end,temp;
+length = string_length(s);
+*begin = s;
+end = s;
+for (c = 0; c < length - 1; c++)
+end++;
+for (c = 0; c < length/2; c++)
 {
-_putchar(*(s + (count)));
+temp = *begin;
+*begin = *end;
+*end = temp;
+begin++;
+end--;
 }
-_putchar('\n');
 }
