@@ -13,15 +13,4 @@ temp = *a;
 *a = *b;
 *b = temp;
 }
-void swap_int(int *a, int *b)
-{
-int x;
-int y;
-_putchar("%d", x);
-_putchar("%d", y);
-swap(&x, &y);
-_putchar("%d", x);
-_putchar("%d", y);
-return (0);
-}
  
