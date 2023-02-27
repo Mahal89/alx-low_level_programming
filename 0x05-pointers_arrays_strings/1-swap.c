@@ -13,14 +13,15 @@ temp = *a;
 *a = *b;
 *b = temp;
 }
-int main(void)
+void swap_int(int *a, int *b)
 {
-int d = 5, int e = 4;
-_putchar("d = %d\n", d);
-_putchar("e = %d", e);
-swap (&d, &e);
-_putchar("d = %d", d);
-_putchar("e = %d", e);
+int x;
+int y;
+_putchar("%d", x);
+_putchar("%d", y);
+swap(&x, &y);
+_putchar("%d", x);
+_putchar("%d", y);
 return (0);
 }
  
