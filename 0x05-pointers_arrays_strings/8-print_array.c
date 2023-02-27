@@ -8,11 +8,14 @@
 */
 void print_array(int *a, int n)
 {
-int numbers[] = {3, 6, 10,20};
-printf("%d" "%d" "%d" "%d", numbers[0], numbers[1], numbers[2], numbers[3]);
+int n[] = {3, 6, 9,12};
+int n = 3;
+int *a;
+a = &n;
+for (n = 3; n <=12; n++)
+printf("%d", n);
 printf(",");
 printf(" ");
 printf("\n");
 }
-
 	 
