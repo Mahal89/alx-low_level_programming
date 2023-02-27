@@ -7,8 +7,14 @@
 */
 void rev_string(char *s)
 {
- char temp;
- temp = *end;
- *end = *begin;
- *begin = temp;
+int length, c;
+char *begin, *end, temp;
+length = string_length(s);
+*begin = s;
+*end = s;
+temp = *end;
+*end = *begin;
+*begin = temp;
+begin++;
+end--;
 }
