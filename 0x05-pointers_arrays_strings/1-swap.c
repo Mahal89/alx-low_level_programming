@@ -8,15 +8,15 @@
 */
 void swap_int(int *a, int *b)
 {
-int n;
-int h;
-n = 5;
-h = 4;
-_putchar("n = %d\n", n);
-_putchar("h = %d", h);
-swap (&n, &h);
-_putchar("n = %d", n);
-_putchar("h = %d", h);
+int a;
+int b;
+a = 5;
+b = 4;
+_putchar("a = %d\n", a);
+_putchar("b = %d", b);
+swap (&a, &b);
+_putchar("a = %d", a);
+_putchar("b = %d", b);
 return (0);
 }
  
