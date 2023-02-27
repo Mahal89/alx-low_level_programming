@@ -8,15 +8,19 @@
 */
 void swap_int(int *a, int *b)
 {
-int a;
-int b;
-a = 5;
-b = 4;
-_putchar("a = %d\n", a);
-_putchar("b = %d", b);
-swap (&a, &b);
-_putchar("a = %d", a);
-_putchar("b = %d", b);
+int temp;
+temp = *a;
+*a = *b;
+*b = temp;
+}
+int main(void)
+{
+int d = 5, int e = 4;
+_putchar("d = %d\n", d);
+_putchar("e = %d", e);
+swap (&d, &e);
+_putchar("d = %d", d);
+_putchar("e = %d", e);
 return (0);
 }
  
