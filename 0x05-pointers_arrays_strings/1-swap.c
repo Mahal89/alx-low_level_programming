@@ -8,12 +8,6 @@
 */
 void swap_int(int *a, int *b)
 {
-{
-int new;
-new = *a;
-*a = *b;
-*b = new;
-}
 int n;
 int h;
 n = 5;
@@ -24,5 +18,12 @@ swap (&n, &h);
 _putchar("n = %d", n);
 _putchar("h = %d", h);
 return (0);
+}
+void swap_int(int *a, int *b)
+{
+int new;
+new = *a;
+*a = *b;
+*b = new;
 }
  
