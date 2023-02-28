@@ -8,5 +8,8 @@
  */
 int _strlen(char *s)
 {
-int strlen (const char *s);
+char[]
+int length;
+length = strlen(s);
+_putchar("%d", length);
 }
