@@ -7,19 +7,8 @@
 */
 void rev_string(char *s)
 {
-int length, b;
-char *begin, *end,temp;
-length = string_length(s);
-*begin = s;
-end = s;
-for (c = 0; c < length - 1; c++)
-end++;
-for (c = 0; c < length/2; c++)
+if (*s)
 {
-temp = *begin;
-*begin = *end;
-*end = temp;
-begin++;
-end--;
-}
+reverse(s+1);
+_putchar("%c", s);
 }
