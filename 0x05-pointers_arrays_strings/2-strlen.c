@@ -8,8 +8,9 @@
  */
 int _strlen(char *s)
 {
-char[]
-int length;
-length = strlen(s);
-_putchar("%d", length);
+char s[] = "love programming";
+int i;
+for (i = 0; s[i] != '\0'; ++i)
+_putchar("%d", i);
+return (0);
 }
