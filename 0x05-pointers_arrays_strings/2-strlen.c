@@ -8,8 +8,7 @@
  */
 int _strlen(char *s)
 {
-char [100];
-int i;
-for (i = 0; s[i] != '\0'; ++i)
-_putchar("length is: %d", i);
+char *s;
+int length = strlen(s);
+return (length);
 }
