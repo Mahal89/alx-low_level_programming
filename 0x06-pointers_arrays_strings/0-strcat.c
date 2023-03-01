@@ -20,4 +20,5 @@ for (k = 0; s2[j] != '\0', ++j, ++length)
 s1[length] = s2[j];
 }
 s1[length] = '\0';
+return (dest);
 }
