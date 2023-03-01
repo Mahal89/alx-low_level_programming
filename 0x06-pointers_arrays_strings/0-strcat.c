@@ -8,17 +8,14 @@
 */
 char *_strcat(char *dest, char *src);
 {
-char s1[100], s2[100];
-int length; k;
-length = 0;
-while (s1[length] != '\0')
-{ 
-++length;
-}
-for (k = 0; s2[j] != '\0', ++j, ++length)
+int k, j;
+for (k = 0, dest[k] != '\0')
 {
-s1[length] = s2[j];
+k++;
 }
-s1[length] = '\0';
+for (j = 0, (dest[j + k] = *src++) != '\0'; j++)
+{
+}
 return (dest);
 }
+  
