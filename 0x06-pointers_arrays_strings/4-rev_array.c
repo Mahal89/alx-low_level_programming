@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "main.h"
+#include <string.h>
 /**
  *reverse_array - reverses array
  *@a: string
@@ -18,6 +19,5 @@ end = a[last];
 a[k] = end;
 a[last] = start;
 last--;
-return (0);
 }
 }
