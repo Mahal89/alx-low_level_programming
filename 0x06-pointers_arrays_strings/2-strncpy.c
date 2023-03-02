@@ -18,5 +18,6 @@ for (n = 0; dest[n] != '\0'; n++)
 src[n] = dest[n];
 }
 src[n] = '\0';
+_putchar("%s", src);
 }
 
