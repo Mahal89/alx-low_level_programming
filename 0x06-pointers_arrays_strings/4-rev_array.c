@@ -18,5 +18,6 @@ end = a[last];
 a[k] = end;
 a[last] = start;
 last--;
+return (0);
 }
 }
