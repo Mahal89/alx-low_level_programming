@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "main.h"
+#include <string.h>
 /**
  *strcat - concatenates strings
  *@dest: first string
@@ -8,22 +9,12 @@
 */
 char *_strcat(char *dest, char *src);
 {
-char s[100];
-int k = 0, j = 0;
-char *str;
-while (dest[k] != '\0')
+  int k, j;
+for (k = 0; dest[k] != '\0'; k++)
+for (j = 0; src[j] != '\0'; j++)
 {
-str[j] = dest[k];
+dest[k] = src[j];
 k++;
-j++;
 }
-while (src[k] != '\0')
-{
-str[j] = src[k];
-k++;
-j++;
-}
-str[j] = '\0';
-return (dest);
-}
+rerurn (dest);
 	
