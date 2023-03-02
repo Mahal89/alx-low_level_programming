@@ -19,5 +19,6 @@ src[n] = dest[n];
 }
 src[n] = '\0';
 _putchar("%s", src);
+return (0);
 }
 
