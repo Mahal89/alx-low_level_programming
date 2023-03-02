@@ -9,12 +9,13 @@
 */
 int *_strncpy(char *dest, char *src, int n)
 {
-int k = 0;
-while (dest[k] != '\0')
+char *dest[100] = "pointers";
+char *src[];
+int n;
+for (n = 0; dest[n] != '\0'; n++)
 {
-src[k] = dest[k];
-k++;
+src[n] = dest[n];
 }
-src[k] = '\0';
+src[n] = '\0';
 }
 
