@@ -13,10 +13,11 @@ while (s[k] != '0')
 {
 i++;
 }
-k--;
-for (k >= 0; k--)
+k = k - 1;
+while (k >= 0)
 {
 _putchar(s[k]);
+k--;
 }
 _putchar('\n');
 }
