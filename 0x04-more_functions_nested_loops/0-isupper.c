@@ -1,11 +1,16 @@
 #include <stdio.h>
 #include "main.h"
-int main(void)
+/**
+ *_isupper - determines if alphabet is uppercase
+ *@n: variable for an integer
+ *Return: 1 if uppercase and 0 if lowercase
+*/
+int _isupper(int n)
 {
-int _isupper(int c);
-int c = 'A';
+if ((n >= 'A') && (n <= 'Z'))
 return (1);
-int c = 'a';
+else
 return (0);
 }
+  
   
