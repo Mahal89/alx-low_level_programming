@@ -12,5 +12,6 @@ if (*s)
 _strlen_recursion(s + 1);
 _putchar("%d", s);
 }
+return (0);
 }
       
