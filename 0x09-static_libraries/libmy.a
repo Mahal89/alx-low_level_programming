@@ -15,3 +15,11 @@ int _islower(int c)
 return (0);
 }
 
+0-isupper.o/    1678476022  10320 10320 100600  73        `
+#include <stdio.h>
+#include "main.h"
+int _isupper(int c)
+{
+return (0);
+}
+
