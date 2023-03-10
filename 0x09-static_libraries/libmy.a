@@ -1,14 +1,17 @@
 !<arch>
-0-isupper.c/    1678475195  10320 10320 100600  61        `
+0-isupper.c/    1678476022  10320 10320 100600  73        `
 #include <stdio.h>
 #include "main.h"
 int _isupper(int c)
 {
+return (0);
 }
 
-3-islower.c/    1678474403  10320 10320 100600  60        `
+3-islower.c/    1678476132  10320 10320 100600  73        `
 #include <stdio.h>
 #include "main.h"
 int _islower(int c)
 {
+return (0);
 }
+
