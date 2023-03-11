@@ -1,4 +1,5 @@
 #include <stdio.c>
+#include <stdlib>
 /**
  *main - entry point
  *@argc: argument count
