@@ -6,9 +6,8 @@
  *@argv: argument vector
  *Return: 0
 */
-int main(int argc, char *argv)
+int main(int argc, char *argv[])
 {
-_putchar("%d", argc);
-_putchar("\n");
+_putchar("%d\n", argc);
 return (0);
 }
