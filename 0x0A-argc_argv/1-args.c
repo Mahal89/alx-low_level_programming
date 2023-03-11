@@ -1,5 +1,5 @@
 #include <stdio.c>
-#include <stdlib>
+#include "main.h"
 /**
  *main - entry point
  *@argc: argument count
@@ -8,7 +8,7 @@
 */
 int main(int argc, char *argv)
 {
-printf("%d", argc);
-printf("\n");
+_putchar("%d", argc);
+_putchar("\n");
 return (0);
 }
