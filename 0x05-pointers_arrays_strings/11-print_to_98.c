@@ -7,11 +7,16 @@
 */
 void print_to_98(int n)
 {
-for (n = 0; n <= 98; n++)
+int n;
+if (n = n; n < 98; n++)
 {
-_putchar("%d", n);
-_putchar(", ");
+_putchar("%d, ", n);
 }
-_putchar("\n");
-return (0);
+else if (n = n; n > 98; n--)
+{
+_putchar("%d, ", n);
+}
+else
+{
+_putchar("%d, ", 98)
 }
