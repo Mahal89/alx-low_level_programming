@@ -8,14 +8,13 @@
 */
 char *_strdup(char *str)
 {
-char *c;
-unsigned int k;
-int size;
-c = malloc(size * sizeof(char));
-if (str == NULL || k > size)
+char *str2;
+unsigned int size, k;
+str2 = malloc(size *(sizeof(char));
+if (str2 == NULL || str2 > size)
 return (NULL);
 for (k = 0; k < size; k++)
-c[k] = *str;
-_strdup(str);
-return (0);
-}
+str = str2[k];
+strdup(str2);
+return (0)
+
