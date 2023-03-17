@@ -7,15 +7,13 @@
 */
 int _sqrt_recursion(int n)
 {
-int k;
-k = sqrt;
-if (n < 0 && n / k = double)
+if (n < 0)
 {
 return (-1);
 }
 else
 {
-_sqrt_recursion(n);
+sqrt = _sqrt_recursion(n);
 }
 return (0);
 }
