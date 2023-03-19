@@ -9,12 +9,11 @@
 char *_strdup(char *str)
 {
 char *str2;
-unsigned int size, k;
-str2 = malloc(size * sizeof(char));
-if (str == NULL || str2 > size)
+if (str2 == NULL)
 return (NULL);
-for (k = 0; k < size; k++)
-str[k] = str2[k];
+str2 = (int *) malloc(sizeof(char));
+str2 = strdup(str);
 return(str2);
+free(str2);
 }
 
