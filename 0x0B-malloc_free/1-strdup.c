@@ -14,8 +14,11 @@ if (str2 == NULL)
 {
 return (NULL);
 }
+else
+{
 str2 = (char *) malloc(sizeof(char));
 return(str2);
+}
 free(str2);
 return (0);
 }
