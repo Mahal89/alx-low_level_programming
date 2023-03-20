@@ -15,7 +15,7 @@ str2 = _strdup(str);
 if (str == NULL)
 return (NULL);
 else
-str2 = (char*) malloc(k * sizeof(int));
+str2 = (char *) malloc(k * sizeof(int));
 return (str2);
 free(str2);
 return (0);
