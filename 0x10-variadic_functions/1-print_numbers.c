@@ -18,7 +18,7 @@ else
 if (seperator != NULL)
 printf("%s", seperator);
 for (k = 0; k < n; k++)
-printf("%d", va_arg(ap, int);
+printf("%d", va_arg(ap, int));
 printf("\n");
 va_end (ap)
 }
