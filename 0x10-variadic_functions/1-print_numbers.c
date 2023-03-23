@@ -5,6 +5,7 @@
  *print_numbers - entry point
  *@separator: string between numbers
  *@n: number of integers
+ *@...: arguments
  *Return: 0
 */
 void print_numbers(const char *separator, const unsigned int n, ...)
