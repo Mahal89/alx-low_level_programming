@@ -19,6 +19,9 @@ if (str)
 printf("%s", str);
 else
 printf("(nil)");
+if (separator != (n - 1))
+printf("%s", separator);
 }
 printf("\n");
+va_end(ap);
 }
