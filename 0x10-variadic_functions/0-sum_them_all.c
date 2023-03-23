@@ -10,6 +10,7 @@ int sum_them_all(const unsigned int n, ...)
 {
 va_list ap;
 unsigned int k, sum;
+sum = 0;
 va_start(ap, n);
 for (k = 0; k < n; k++)
 {
