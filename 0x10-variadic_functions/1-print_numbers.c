@@ -14,7 +14,7 @@ unsigned int k;
 va_start(ap, n);
 for (k = 0; k < n; k++)
 printf("%d", va_arg(ap, int));
-if (seperator != NULL)
+if (seperator != (n - 1) && seperator != NULL)
 printf("%s", seperator);
 printf("\n");
 va_end (ap)
