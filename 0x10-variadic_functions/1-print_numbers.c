@@ -12,9 +12,6 @@ void print_numbers(const char *separator, const unsigned int n, ...);
 va_list ap;
 unsigned int k;
 va_start(ap, n);
-if (separator == NULL)
-return;
-else
 if (seperator != NULL)
 printf("%s", seperator);
 for (k = 0; k < n; k++)
