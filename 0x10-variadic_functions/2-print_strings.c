@@ -8,14 +8,17 @@
 */
 void print_strings(const char *separator, const unsigned int n, ...)
 {
-va_list ap;
+va_list(ap);
 unsigned int k;
+char str;
 va_start(ap, n);
 for (k = 0; k < n; k++)
-printf("%s", va_arg(ap, int));
-if (separator != NULL)
-printf("%s", separator);
+{
+str = va_arg(ap, char);
+if (str)
+printf("%s", str);
 else
 printf("(nil)");
-va_end(ap);
+}
+printf("\n");
 }
