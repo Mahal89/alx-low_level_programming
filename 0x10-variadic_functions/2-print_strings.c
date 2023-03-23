@@ -12,10 +12,10 @@ va_list ap;
 unsigned int k;
 va_start(ap, n);
 for (k = 0; k < n; k++)
-printf("%s", k);
+printf("%s", va_arg(ap, char));
 if (separator != NULL)
-printf("%s", va_arg(ap, int));
-else if (k == NULL)
-printf("(nil)", k);
+printf("%s", separator);
+else
+printf("(nil)");
 va_end(ap);
 }
