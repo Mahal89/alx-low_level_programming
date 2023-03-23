@@ -15,10 +15,10 @@ va_start(ap, n);
 for (k = 0; k < n; k++)
 {
 str = va_arg(ap, char);
-if (str)
-printf("%s", str);
-else
+if (str == NULL)
 printf("(nil)");
+else
+printf("%s", str);
 if (k != (n - 1) && separator != NULL)
 printf("%s", separator);
 }
