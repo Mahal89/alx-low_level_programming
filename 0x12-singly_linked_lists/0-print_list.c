@@ -8,14 +8,12 @@
 */
 size_t print_list(const list_t *h)
 {
-size_t info = 0;
 while (h != NULL)
 {
-printf("%d", h->info);
+printf("%d", h->data);
 h = h->next;
-info++;
 }
-if (str == NULL)
+if (h->str == NULL)
 {
 printf("(nil)");
 }
