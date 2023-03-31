@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib>
+#include <stdlib.h>
 #include "lists.h"
 /**
  *print list - entry point
@@ -10,8 +10,13 @@ size_t print_list(const list_t *h)
 {
 size_t info = 0;
 while (h != NULL)
+{
 printf("%d", h->info);
 h = h->next;
+info++;
+}
 if (str == NULL)
-printf("(nil)")
+{
+printf("(nil)");
+}
 }
