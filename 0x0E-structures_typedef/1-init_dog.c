@@ -12,22 +12,12 @@
 */
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-int name_len = strlen(name);
-int owner_len = strlen(owner);
-d->name = malloc((name_len + 1) * sizeof(char));
-if (d->name == NULL)
+if (d->name != NULL)
 {
 return;
 }
-d->owner = malloc((owner_len + 1) * sizeof(char));
-if (d->owner == NULL)
-{
-free(d->name);
-return;
-}
-strcpy(d->name, name);
-strcpy(d->owner, owner);
+d->name = name;
 d->age = age;
-return;
+d->owner = owner;
 }
  
