@@ -12,8 +12,17 @@
 */
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-strcpy(d->name, name);
+int k;
+for (k = 0; name[k] != '\0'; k++)
+{
+d->name[k] = name[k];
+}
+d->name[k] = '\0';
 d->age = age;
-d->owner = owner;
+for (k = 0; owner[k] != '\0'; k++)
+{
+d->owner[k] = owner[k];
+}
+d->owner[k] = '\0';
 }
  
