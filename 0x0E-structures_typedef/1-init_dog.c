@@ -22,4 +22,3 @@ d->age = age;
 d->owner = owner;
 return;
 }
- 
