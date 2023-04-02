@@ -2,6 +2,7 @@
 #include <string.h>
 #include "dog.h"
 #include "main.h"
+#include <stdlib.h>
 /**
  *init_dog - entry point
  *@d: 1st arg
