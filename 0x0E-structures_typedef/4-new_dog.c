@@ -22,7 +22,5 @@ strcpy(newdog->name, name);
 newdog->age = age;
 newdog->owner = malloc(strlen(owner) + 1);
 strcpy(newdog->owner, owner);
-
 return (newdog);
 }
-  
