@@ -13,9 +13,16 @@ if (d == NULL)
 {
 return;
 }
-printf("%s\n", d->name ? d->name : "(nil)");
-printf("%d\n", d->age);
-printf("%s\n", d->owner ? d->owner : "(nil)");
+else if (d->name == NULL || d->age == NULL || d->owner == NULL)
+{
+printf("Name: (nil)\n");
+}
+else
+{
+printf("Name: %s\n", d->name);
+printf("Age: %d\n", d->age);
+printf("Owner: %s\n", d->owner);
+}
 return;
 }
     
