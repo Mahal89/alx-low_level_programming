@@ -22,5 +22,3 @@ return (NULL);
 str2 = strcpy(str2, str);
 return (str2);
 }
-  
-  
